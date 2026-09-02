@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scoreboard</title>
+    <link rel="stylesheet" href="scoreboard.css">
+    <link href="https://fonts.cdnfonts.com/css/60s-scoreboard" rel="stylesheet">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/60s-scoreboard');
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div id="nav">
+            YOU CAN SEE SCORECARD HERE
+        </div>
+        <div id="container">
+            <div class="names">
+                ARGENTINA
+            </div>
+            <div class="names" id="brazil">
+                BRAZIL
+            </div>
+        </div>
+        <div id="container2">
+            <div class="box" id="box1">
+                <p id="score1"></p>
+            </div>
+            <div class="box" id="box2">
+                <p id="score2"></p>
+            </div>
+        </div>
+        <div id="container3">
+            <div id="grpbtn1">
+                <button class="box1btn" onclick="box1plusone()">+1</button>
+                <button class="box1btn" onclick="box1plustwo()">+2</button>
+                <button class="box1btn" onclick="box1plusthree()">+3</button>
+            </div>
+            <div id="grpbtn2">
+                <button class="box2btn" onclick="box2plusone()">+1</button>
+                <button class="box2btn" onclick="box2plustwo()">+2</button>
+                <button class="box2btn" onclick="box2plusthree()">+3</button>
+            </div>
+        </div>
+        <div id="container4">
+            <button id="resetbtn" onclick="resetzero()">Reset Score</button>
+        </div>
+        <div id="navend">
+            
+            <pre id="lastpara">
+            This website was about score of the match. It was like a scoretracker to the match with a reset button the total 300+ lines of code was written by me 
+            through what few things i learned and i will make more wegpages like that thanks for viewing copyright claims @2026 
+            </pre>
+            
+        </div>
+    </div>
+</body>
+    <script src="scoreboard.js"></script>
+</html>

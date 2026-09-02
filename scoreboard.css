@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-image: linear-gradient(rgb(212, 151, 37), rgb(192, 29, 29));
+}
+
+#nav {
+    height: 40px;
+    background-color: rgb(10, 10, 81);
+    color: brown;
+    font-size: 28px;
+    text-align: center;
+    font-family: '60s Scoreboard', sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.names {
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #7e130d;
+    background-color: #13d1df;
+
+}
+
+#brazil {
+    margin-right: 50px;
+}
+
+#container2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.box {
+    width: 250px;
+    height: 300px;
+    color: cornsilk;
+    background-color: black;
+    border-radius: 40px;
+    border: #6f2a70 7px solid;
+    text-align: center;
+    font-size: 150px;
+}
+#score1{
+    margin-top: 25px;
+}
+#score2{
+    margin-top: 25px;
+}
+
+#box1 {
+    font-family: '60s Scoreboard', sans-serif;
+
+}
+#box2 {
+    font-family: '60s Scoreboard', sans-serif;
+
+}
+#container3 {
+    display: flex;
+    justify-content: center;
+    gap: 470px;
+
+    flex-direction: row;
+}
+
+#grpbtn1 {
+    display: flex;
+    gap: 20px;
+
+}
+
+#grpbtn2 {
+    display: flex;
+    gap: 20px;
+}
+
+.box1btn {
+    padding: 17px 23px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(16, 171, 219), rgb(92, 138, 247), rgb(62, 4, 155));
+    border: none;
+    color: rgb(194, 9, 194);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 1px gold;
+    font-size: 32px;
+    border-radius: 10px;
+    border: 3px solid rgb(52, 24, 98);
+}
+
+.box1btn:hover {
+    padding: 17px 23px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(62, 4, 155), rgb(92, 138, 247), rgb(16, 171, 219));
+    border: none;
+    color: rgb(194, 9, 194);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 1px gold;
+    font-size: 32px;
+    border-radius: 10px;
+    border: 3px solid rgb(52, 24, 98);
+}
+
+.box1btn:after {
+    padding: 17px 23px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(16, 171, 219), rgb(92, 138, 247), rgb(62, 4, 155));
+    border: none;
+    color: rgb(194, 9, 194);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 1px gold;
+    font-size: 32px;
+    border-radius: 10px;
+    border: 3px solid rgb(52, 24, 98);
+}
+
+.box2btn {
+    padding: 17px 23px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(16, 171, 219), rgb(92, 138, 247), rgb(62, 4, 155));
+    border: none;
+    color: rgb(194, 9, 194);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 1px gold;
+    font-size: 32px;
+    border-radius: 10px;
+    border: 3px solid rgb(52, 24, 98);
+}
+
+.box2btn:hover {
+    padding: 17px 23px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(62, 4, 155), rgb(92, 138, 247), rgb(16, 171, 219));
+    border: none;
+    color: rgb(194, 9, 194);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 1px gold;
+    font-size: 32px;
+    border-radius: 10px;
+    border: 3px solid rgb(52, 24, 98);
+}
+
+.box2btn:after {
+    padding: 17px 23px;
+    margin-top: 10px;
+    background: linear-gradient(rgb(16, 171, 219), rgb(92, 138, 247), rgb(62, 4, 155));
+    border: none;
+    color: rgb(194, 9, 194);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 1px 1px gold;
+    font-size: 32px;
+    border-radius: 10px;
+    border: 3px solid rgb(52, 24, 98);
+}
+#container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+}
+#resetbtn{
+    padding: 22px 36px;
+    background: grey;
+    color: gainsboro;
+    text-shadow: 2px 2px 2px black;
+    border:4px solid darkslategrey;
+    border-radius: 10px;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 23px;
+}
+#resetbtn:hover{
+    padding: 22px 36px;
+    background: linear-gradient(310deg,green,darkgreen,#092328);
+    border:4px solid darkslategrey;
+    border-radius: 10px;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 26px;
+}
+#resetbtn::after{
+    padding: 22px 36px;
+    background: grey;
+    color: gainsboro;
+    text-shadow: 2px 2px 2px black;
+    border:4px solid darkslategrey;
+    border-radius: 10px;
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: bold;
+    font-size: 23px;
+}
+#navend{
+    height: 90px;
+    background-color: rgb(121, 30, 30);
+}
+#lastpara{
+    color: lightsteelblue;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+

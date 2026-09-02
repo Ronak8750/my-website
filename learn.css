@@ -1,0 +1,35 @@
+
+#box{
+     height: 700px;
+     background-image: url("https://c4.wallpaperflare.com/wallpaper/431/57/206/geometry-geometric-web-dark-wallpaper-preview.jpg");
+    background-size: cover;
+    }
+.btns{
+    background-color: sandybrown;
+    padding: 18px 27px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+    border: 3px solid gray;
+}
+.btns:hover{
+    background-color: rgb(179, 117, 62);
+    padding: 20px 30px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+    border: 3px solid rgb(78, 77, 77);
+}
+.btns:active{
+    background-color: sandybrown;
+    padding: 18px 27px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 15px;
+    border: 3px solid gray;
+}
+#msg{
+    color: white;
+    font-size: large;
+}
