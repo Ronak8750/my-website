@@ -177,18 +177,27 @@ body{
     justify-content: space-around;
 }
 .categboxes{
-    height: 20rem;
+    height: 27rem;
     width: 17%;
     border-radius: 2rem;
     border: 2px solid rgba(128, 128, 128, 0.608);
 
 }
 .categboxes:hover{
-    height: 20rem;
-    width: 17%;
+    height: 27rem;
+    width: 18%;
     border-radius: 2rem;
     border: 2px solid rgba(128, 128, 128, 0.608);
-    transition: 0.25s;
-    transform: translate(3px,-7px);
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    transition: 0.35s;
+    transform: translate(5px,-9px);
+    box-shadow: 6px 10px 30px rgba(55, 55, 55, 0.6);
+}
+#categbox1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+}
+#categbox1img{
+
 }
