@@ -198,16 +198,16 @@ body{
     
 
 }
-#categbox1half{
+#categbox1half, #categbox2half, #categbox3half, #categbox4half{
     height: 50%;
     width: 100%;
 }
-#categbox1img{
+#categbox1img, #categbox2img, #categbox3img, #categbox4img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-#categboxoff1{
+#categboxoff1, #categboxoff2, #categboxoff3, #categboxoff4{
     background-color: rgba(61, 214, 214, 0.701);
     opacity: 92%;
     border-radius: 1rem;
@@ -220,7 +220,7 @@ body{
     font-weight: 800;
     text-shadow: 0px 0px 2px rgba(255, 192, 203, 0.353);
 }
-#categboxbtn1{
+#categboxbtn1, #categboxbtn2, #categboxbtn3, #categboxbtn4{
     position: absolute;
     margin-top: 0.8rem;
     margin-left: 13rem;
@@ -228,71 +228,78 @@ body{
     outline: none;
     border: none;
     font-size: 1.6rem;
-    width: 1.9rem;
-    height: 1.9rem;
+    width: 2rem;
+    height: 2rem;
     background-color: blanchedalmond;
     border-radius: 50%;
     color: rgb(70, 69, 69);
 }
-#categboxbtn1:hover{
+#categboxbtn1:hover, #categboxbtn2:hover, #categboxbtn3:hover, #categboxbtn4:hover{
     color: magenta;
     background-color: rgb(244, 196, 125);
     transition: 0.3s;
     cursor: pointer;
 }
-#categboxinfo1{
+#categboxinfo1, #categboxinfo2, #categboxinfo3, #categboxinfo4{
     height: 50%;
     padding-top: 1rem;
-    padding-left: 2rem;
+    padding-left: 1.7rem;
     background-color: aliceblue;
 }
-#categboxinfo1 p{
+#categboxinfo1 p, #categboxinfo2 p, #categboxinfo3 p, #categboxinfo4 p{
     font-style: "Fira sans",serif;
     font-size: 1.2rem;
     font-weight: 500;
     color: rgb(59, 57, 57);
 }
-#categboxtitle1{
+#categboxtitle1, #categboxtitle2, #categboxtitle3, #categboxtitle4{
     font-family: "Basic", sans-serif;
     font-weight: 600;
     margin-top: 0.3rem;
     font-size: 1.3rem;
 }
-#pricebox1{
+#pricebox1, #pricebox2, #pricebox3, #pricebox4{
     margin-top: 0.8rem;
     display: flex;
     gap: 1rem;
 }
-#pricebox1 h3{
+#pricebox1 h3, #pricebox2 h3, #pricebox3 h3, #pricebox4 h3{
     font-size: 1.3rem;
 }
-#pricebox1 del{
+#pricebox1 del, #pricebox2 del, #pricebox3 del, #pricebox4 del{
     font-size: 1.2rem;
     margin-top: 0.1rem;
 }
-#ratingbox1{
+#ratingbox1, #ratingbox2, #ratingbox3, #ratingbox4{
     text-shadow: 0px 0px 1px black;
     font-size: 1.3rem;
     color: rgb(225, 197, 37);
-    margin-top: 0.8rem;
+    margin-top: 1.6rem;
 }
-#ratingbox1 span{
+#ratingbox2{
+    margin-top: 0.15rem;
+}
+#ratingbox1 span, #ratingbox2 span, #ratingbox3 span, #ratingbox4 span{
     text-shadow: none;
     font-size: 0.9rem;
-    color: rgb(82, 82, 82)
+    color: rgb(82, 82, 82);
 }
-#cartbtn1{
+#cartbtn1, #cartbtn2, #cartbtn3, #cartbtn4{
     border-radius: 0.5rem;
-    padding: 0.4rem 0.85rem;
+    padding: 0.45rem 1.5rem;
     font-size: 1.5rem;
-    margin-top: 1.3rem;  
-    background-color: rgb(255, 233, 205);    
+    background-color: rgb(255, 233, 205);   
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
 }
-#cartbtn1:hover{
+
+#cartbtn1:hover, #cartbtn2:hover, #cartbtn3:hover, #cartbtn4:hover{
     border-radius: 0.5rem;
     padding: 0.4rem 0.85rem;
     font-size: 1.5rem;
     margin-top: 1.3rem;
     background-color: rgb(220, 207, 176);
     transition: 0.2s;
+    cursor: pointer;    
+    transform: translate(4px, -8px);
 }
