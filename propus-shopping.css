@@ -291,6 +291,7 @@ body{
     background-color: rgb(255, 233, 205);   
     margin-top: 0.5rem;
     margin-left: 0.4rem;
+    transition: 0.2s;
 }
 
 #cartbtn1:hover, #cartbtn2:hover, #cartbtn3:hover, #cartbtn4:hover{
@@ -299,7 +300,14 @@ body{
     font-size: 1.5rem;
     margin-top: 1.3rem;
     background-color: rgb(220, 207, 176);
-    transition: 0.2s;
     cursor: pointer;    
     transform: translate(4px, -8px);
+}
+#cartbtn1:active, #cartbtn2:active, #cartbtn3:active, #cartbtn4:active{
+    border-radius: 0.5rem;
+    padding: 0.45rem 1.5rem;
+    font-size: 1.5rem;
+    background-color: rgb(255, 233, 205);   
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
 }
